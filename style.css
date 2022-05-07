@@ -5,3 +5,42 @@ body{
 background-repeat: no-repeat;
 background-size: cover;
 }
+.p{
+    
+border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10% auto;
+    display: block;
+    object-fit: cover;
+    object-position: bottom top;
+    border :solid 4px rgba(5, 148, 5, 0.651) ;
+} 
+
+.icon{
+    width: 30px;
+    height: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    margin: 10px auto;
+    display: block;
+    object-fit: cover;
+    object-position: bottom top;
+    display: flex;
+    
+} 
+.insta{
+    width: 33px;
+    height: 33px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    margin: 10px auto;
+    object-fit: cover;
+
+}
