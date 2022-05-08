@@ -1,46 +1,111 @@
 body{
-    height: 100vh;
+    height: 100%;
     background-image:url(img/binary-6285217.jpg);
  background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
+background-size: 100% contain;
+align-items: center;
+
+
 }
-.p{
+
+.perf{
     
 border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin: 10% auto;
-    display: block;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: cover;
     object-position: bottom top;
-    border :solid 4px rgba(5, 148, 5, 0.651) ;
+    border :solid 4px rgba(9, 216, 9, 0.466) ;
 } 
 
 .icon{
-    width: 30px;
-    height: 30px; 
-    margin-left: auto;
-    margin-right: auto;
+    width: 48x;
+    height: 48px; 
+    margin: 10px;
     display: block;
-    margin-left: 20px auto;
-    margin-right: 20px auto;
-    margin: 10px auto;
-    display: block;
-    object-fit: cover;
-    object-position: bottom top;
-    display: flex;
-    
+   
 } 
 .insta{
-    width: 33px;
-    height: 33px; 
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-left: 20px auto;
-    margin-right: 20px auto;
-    margin: 10px auto;
-    object-fit: cover;
+    width: 50px;
+    height: 50px; 
+    margin: 10px;
+    
 
+}
+
+.git{
+    width: 50px;
+    height: 50px; 
+    margin: 10px;
+}
+
+.wha{
+    width: 48x;
+    height: 48px; 
+    margin: 10px;
+   
+} 
+.lik{
+    width: 48x;
+    height: 48px; 
+    margin: 10px;
+   
+} 
+
+#lado{
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #eee;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
 }
