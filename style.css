@@ -1,108 +1,223 @@
 body{
-    height: 100%;
-    background-image:url(img/binary-6285217.jpg);
-    background-position: center
-    center;
-    
+  height: 1000%;
+  background-image:url(img/binary-6285217.jpg);
+  background-position: center
+  center;
+  
 
 }
 
 .perf{
-    
+  
 border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    margin: auto;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
-    object-position: bottom top;
-    border :solid 4px rgba(9, 216, 9, 0.466) ;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  object-position: bottom top;
+  border :solid 4px rgba(9, 216, 9, 0.466) ;
 } 
 
 .icon{
-    width: 48x;
-    height: 48px; 
-    margin: 10px;
-    display: block;
-   
+  width: 48x;
+  height: 48px; 
+  margin: 10px;
+  display: block;
+ 
 } 
 .insta{
-    width: 50px;
-    height: 50px; 
-    margin: 10px;
-    
+  width: 50px;
+  height: 50px; 
+  margin: 10px;
+  
 
 }
 
 .git{
-    width: 50px;
-    height: 50px; 
-    margin: 10px;
+  width: 50px;
+  height: 50px; 
+  margin: 10px;
 }
 
 .wha{
-    width: 48x;
-    height: 48px; 
-    margin: 10px;
-   
+  width: 48x;
+  height: 48px; 
+  margin: 10px;
+ 
 } 
 .lik{
-    width: 48x;
-    height: 48px; 
-    margin: 10px;
-   
+  width: 48x;
+  height: 48px; 
+  margin: 10px;
+ 
 } 
 
 #lado{
-    display: flex; 
-    justify-content: center;
-    margin: auto;
+  display: flex; 
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10px
 }
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #000;
-  color: #eee;
+font-family: 'Montserrat', sans-serif;
+background-color: #000;
+color: #eee;
 }
 .container {
-  justify-content: center;
-  align-items: center;
+justify-content: center;
+align-items: center;
 }
 .container p {
-  font-size: 3rem;
-  padding: 0.5rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  overflow: hidden;
+font-size: 3rem;
+padding: 0.5rem;
+font-weight: bold;
+letter-spacing: 0.1rem;
+text-align: center;
+overflow: hidden;
 }
 .container p span.typed-text {
-  font-weight: normal;
-  color: #229e33e3;
+font-weight: normal;
+color: #229e33e3;
 }
 .container p span.cursor {
-  display: inline-block;
-  background-color: #ccc;
-  margin-left: 0.1rem;
-  width: 3px;
-  animation: blink 1s infinite;
+display: inline-block;
+background-color: #ccc;
+margin-left: 0.1rem;
+width: 3px;
+animation: blink 1s infinite;
 }
 .container p span.cursor.typing {
-  animation: none;
+animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+0%  { background-color: #ccc; }
+49% { background-color: #ccc; }
+50% { background-color: transparent; }
+99% { background-color: transparent; }
+100%  { background-color: #ccc; }
+}
+#myFooter{
+  padding-top:32px;
+}
+
+#myFooter .container{
+  text-align: center;
+}
+
+#myFooter .footer-copyright{
+  margin-bottom: 35px;
+  text-align: center;
+  color: #777;
+}
+
+#myFooter ul{
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+#myFooter a{
+  color: #038be6;
+  font-size: 18px;
+}
+
+#myFooter li{
+  display: inline-block;
+  margin: 0px 15px;
+  line-height: 2;
+}
+
+#myFooter .footer-social{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #eee;
+}
+
+#myFooter .fa{
+  font-size: 36px;
+  margin-right: 15px;
+  margin-left: 20px;
+  background-color: white;
+  color: #d0d0d0;
+  border-radius: 51%;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 43px;
+  text-decoration: none;
+  transition:color 0.2s;
+}
+
+#myFooter .fa-whatsapp:hover{
+ color: #25d366;
+}
+
+#myFooter .fa-whatsapp:focus{
+  color: #2b55ff; 
+}
+
+#myFooter .fa-instagram:hover{
+  color:purple;
+}
+
+#myFooter .fa-instagram:focus{
+  color:purple;
+}
+
+#myFooter .fa-telegram:hover{
+  color: #0088cc;
+}
+
+#myFooter .fa-telegram:focus{
+  color:rgb(76, 0, 255);
+}
+
+#myFooter .fa-linkedin:hover{
+  color: #00aced;
+
+}
+
+#myFooter .fa-linkedin:focus{
+  color:#00aced;
+}
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+}
+
+.content{
+ flex: 1 0 auto;
+ -webkit-flex: 1 0 auto;
+ min-height: 200px;
+}
+
+#myFooter{
+ flex: 0 0 auto;
+ -webkit-flex: 0 0 auto;
 }

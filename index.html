@@ -5,15 +5,21 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-white.css">
         <link rel="stylesheet" href="style.css" media="all" />
-       <link rel="shortcut icon" href="img/tilt.png" type="image/x-icon"/>
+        <link rel="shortcut icon" href="img/tilt.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>JUNIOR</title>
 
 </head>
 
 <body>
-        <img src="img/Perfil.jpg" class="perf">
 
+       
+                <img src="img/Perfil.jpg" class="perf" alt=""/>
+     
 
         <br><br><br><br>
 
@@ -21,16 +27,31 @@
                 <p>JUNIOR <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
         </div>
         <div id="lado">
-                <a href="https://www.instagram.com/junior.jdn/"><img src="img/inst].png" class="insta"></a>
+                <a href="https://www.instagram.com/junior.jdn/" aria-hidden="true" ><img src="img/inst].png" class="insta" alt=""></a>
 
 
-                <a href="https://t.me/junior07071"><img src="img/telegra.png" class="icon"></a>
-                <a href="https://github.com/JuniorRodrigu"><img src="img/git.png" class="git"></a>
-                <a href="https://wa.link/q3mp6n"><img src="img/what.png" class="wha"></a>
-                <a href="https://www.linkedin.com/in/junior-rodrigues-010683212"><img src="img/lik.png" class="lik"></a>
+                <a href="https://t.me/junior07071" aria-hidden="true"><img src="img/telegra.png" class="icon" alt=""/></a>
+                <a href="https://github.com/JuniorRodrigu" aria-hidden="true"><img src="img/git.png" class="git" alt=""/></a>
+                <a href="https://wa.link/q3mp6n" aria-hidden="true" ><img src="img/what.png" class="wha" alt=""/></a>
+                <a href="https://www.linkedin.com/in/junior-rodrigues-010683212"aria-hidden="true" ><img src="img/lik.png" class="lik" alt=""/></a>
         </div>
         <div class="content">
         </div>
+        <div class="content">
+        </div>
+        <footer id="myFooter">
+            <div class="container">
+            
+                <p class="footer-copyright">© 2022 Junior Rodrigues - Programador </p>
+            </div>
+            <div class="footer-social">
+                <a href="https://wa.link/q3mp6n" class="social-icons"><i class="fa fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/junior.jdn/" class="social-icons"><i class="fa fa-instagram"></i></a>
+                <a href="https://t.me/junior07071" class="social-icons"><i class="fa fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/in/junior-rodrigues-010683212" class="social-icons"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script>const typedTextSpan = document.querySelector(".typed-text");
                 const cursorSpan = document.querySelector(".cursor");
 
@@ -40,6 +61,7 @@
                 const newTextDelay = 2000;
                 let textArrayIndex = 0;
                 let charIndex = 0;
+
 
                 function type() {
                         if (charIndex < textArray[textArrayIndex].length) {
@@ -71,7 +93,11 @@
 
                 document.addEventListener("DOMContentLoaded", function () {
                         if (textArray.length) setTimeout(type, newTextDelay + 250);
-                });</script>
+                        
+                });
+        </script>
+        
+                
 </body>
 
 </html>
