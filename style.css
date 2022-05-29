@@ -1,9 +1,15 @@
+
 body{
-  height: 1000%;
+
   background-image:url(img/binary-6285217.jpg);
   background-position: center
   center;
-  
+  display: flex;
+  display: webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100vh;
+
 
 }
 
@@ -60,7 +66,7 @@ border-radius: 50%;
   display: flex; 
   justify-content: center;
   margin: auto;
-  margin-bottom: 10px
+  
 }
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -119,6 +125,7 @@ animation: none;
   margin-bottom: 35px;
   text-align: center;
   color: #777;
+  font-size: clamp(1em, 1em + 1vw, 1.9em);
 }
 
 #myFooter ul{
@@ -199,13 +206,6 @@ html{
   height: 100%;
 }
 
-body{
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  height: 100%;
-}
 
 .content{
  flex: 1 0 auto;
