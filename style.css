@@ -93,11 +93,11 @@ text-align: center;
 overflow: hidden;
 }
 .container p span.typed-text {
-color: #e2ece3e3;
+color: #eee;
 }
 .container p span.cursor {
 display: inline-block;
-background-color: #ccc;
+background-color: rgb(31, 252, 11);
 margin-left: 0.1rem;
 width: 3px;
 animation: blink 1s infinite;
