@@ -93,8 +93,7 @@ text-align: center;
 overflow: hidden;
 }
 .container p span.typed-text {
-font-weight: normal;
-color: #229e33e3;
+color: #e2ece3e3;
 }
 .container p span.cursor {
 display: inline-block;
